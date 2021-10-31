@@ -3,7 +3,10 @@ package Solution.String;
 import java.util.*;
 
 public class RemoveDuplicateWord {
-    public void removeDuplicateWord(){
+    /*
+    소문자로 된 한개의 문자열이 입력되면 중복된 문자를 제거하고 출력하는 프로그램을 작성하세요.
+     */
+    public void solution(){
         Scanner sc = new Scanner(System.in);
         char[] input = sc.nextLine().toCharArray();
         Set<Character> word = new LinkedHashSet<>();
