@@ -10,6 +10,7 @@ public class VerifyPalindrome2 {
     알파벳 이외의 문자들의 무시합니다.
      */
     public void solution(){
+        //Using ascii code
         Scanner sc = new Scanner(System.in);
         char[] input = sc.nextLine().toCharArray();
         StringBuilder sb = new StringBuilder();
@@ -24,6 +25,19 @@ public class VerifyPalindrome2 {
         if(org.toString().equals(revese.toString())) {
             System.out.println("YES");
         }else {
+            System.out.println("NO");
+        }
+    }
+
+    public void solution2(){
+        //Using regular expression
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        input = input.toUpperCase().replaceAll("[^A-Z]", "");
+        String tmp  = new StringBuilder(input).reverse().toString();
+        if(input.equals(tmp)){
+            System.out.println("YES");
+        }else{
             System.out.println("NO");
         }
     }
