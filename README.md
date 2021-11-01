@@ -4,9 +4,16 @@
 티스토리 : https://dvpdvp.tistory.com/
 
 Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
-<!-- ### STEP 0
-> 회원 주문 예제로 서비스 구현
-
+### STEP 1
+> 1. 문자 찾기
+> 2. 대소문자 변환
+> 3. 문장 속 단어 찾기
+> 4. 단어 뒤집기
+> 5. 특정 문자 뒤집기
+> 6. 중복 문자 제거
+> 7. 회문 문자열
+> 8. 유효한 팰린드롬
+<!-- 
 ### STEP 1
 > * 0번 리팩토링 스프링 컨테이너 없이 DI 구현
 > * AppConfig 생성으로 관심사를 분리

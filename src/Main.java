@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        VerifyPalindrome2 solution = new VerifyPalindrome2();
+        DecipherCode solution = new DecipherCode();
         solution.solution();
         return;
     }
