@@ -1,7 +1,4 @@
-import Solution.Array.Eratosthenes;
-import Solution.Array.Fibonacci;
-import Solution.Array.PrintBiggerNumber;
-import Solution.Array.StudentInSight;
+import Solution.Array.*;
 import Solution.String.*;
 
 import java.util.Locale;
@@ -9,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Eratosthenes solution = new Eratosthenes();
+        ReversePrimeNum solution = new ReversePrimeNum();
         solution.solution();
         return;
     }

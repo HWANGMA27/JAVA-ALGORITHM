@@ -23,6 +23,7 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 2. 보이는 학생
 > 3. 가위바위보
 > 4. 피보나치 수열
+> 5. 에라토스테네스 체
 <!-- 
 ### STEP 1
 > * 0번 리팩토링 스프링 컨테이너 없이 DI 구현
