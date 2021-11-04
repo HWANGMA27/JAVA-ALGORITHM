@@ -1,12 +1,12 @@
 import Solution.Array.*;
+import Solution.Common;
 import Solution.String.*;
 
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ReversePrimeNum solution = new ReversePrimeNum();
+        Common solution = new Ranking();
         solution.solution();
         return;
     }
