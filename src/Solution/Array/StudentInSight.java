@@ -1,9 +1,11 @@
 package Solution.Array;
 
+import Solution.Common;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class StudentInSight {
+public class StudentInSight implements Common {
 
     /*
     선생님이 N명의 학생을 일렬로 세웠습니다. 일렬로 서 있는 학생의 키가 앞에서부터 순서대로 주어질 때,

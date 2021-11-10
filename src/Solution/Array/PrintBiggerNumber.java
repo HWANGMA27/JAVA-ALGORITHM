@@ -1,12 +1,14 @@
 package Solution.Array;
 
+import Solution.Common;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-public class PrintBiggerNumber {
+public class PrintBiggerNumber implements Common {
     /*
     N개의 정수를 입력받아, 자신의 바로 앞 수보다 큰 수만 출력하는 프로그램을 작성하세요.
      */

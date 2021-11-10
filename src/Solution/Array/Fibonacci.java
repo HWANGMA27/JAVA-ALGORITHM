@@ -1,8 +1,10 @@
 package Solution.Array;
 
+import Solution.Common;
+
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Fibonacci implements Common {
     /*
     1) 피보나키 수열을 출력한다.
     피보나치 수열이란 앞의 2개의 수를 합하여 다음 숫자가 되는 수열이다.

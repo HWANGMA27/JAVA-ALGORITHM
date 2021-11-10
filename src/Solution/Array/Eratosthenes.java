@@ -1,8 +1,10 @@
 package Solution.Array;
 
+import Solution.Common;
+
 import java.util.Scanner;
 
-public class Eratosthenes {
+public class Eratosthenes implements Common {
     /*
     자연수 N이 입력되면 1부터 N까지의 소수의 개수를 출력하는 프로그램을 작성하세요.
     만약 20이 입력되면 1부터 20까지의 소수는

@@ -1,9 +1,11 @@
 package Solution.Array;
 
+import Solution.Common;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ReversePrimeNum {
+public class ReversePrimeNum implements Common {
     public void solution() {
         Scanner sc = new Scanner(System.in);
         final int MAX = 100000;
