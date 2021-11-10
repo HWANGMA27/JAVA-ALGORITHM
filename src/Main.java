@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Common solution = new Ranking();
+        Common solution = new CountPeaks();
         solution.solution();
         return;
     }
