@@ -1,5 +1,7 @@
 import Solution.Array.*;
 import Solution.Common;
+import Solution.SlidingWindow.MaxSalesProfit;
+import Solution.SlidingWindow.Subsequence;
 import Solution.String.*;
 import Solution.TwoPointers.CombineNumbers;
 import Solution.TwoPointers.CombineTwoArray;
@@ -9,8 +11,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Common solution = new CombineNumbers();
-        solution.solution();
+        Subsequence solution = new Subsequence();
+        solution.solution2();
         return;
     }
 }
