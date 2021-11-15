@@ -1,5 +1,6 @@
 import Solution.Array.*;
 import Solution.Common;
+import Solution.Hash.ElectionResult;
 import Solution.SlidingWindow.MaxSalesProfit;
 import Solution.SlidingWindow.Subsequence;
 import Solution.String.*;
@@ -11,8 +12,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Subsequence solution = new Subsequence();
-        solution.solution2();
+        Common solution = new ElectionResult();
+        solution.solution();
         return;
     }
 }
