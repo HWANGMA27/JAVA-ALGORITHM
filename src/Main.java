@@ -1,5 +1,6 @@
 import Solution.Array.*;
 import Solution.Common;
+import Solution.Hash.Anagram;
 import Solution.Hash.ElectionResult;
 import Solution.SlidingWindow.MaxSalesProfit;
 import Solution.SlidingWindow.Subsequence;
@@ -12,7 +13,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Common solution = new ElectionResult();
+        Common solution = new Anagram();
         solution.solution();
         return;
     }
