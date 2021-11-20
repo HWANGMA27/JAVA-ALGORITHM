@@ -31,14 +31,23 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 10. 봉우리
 > 11. 임시반장정하기
 
-### Two Pointers
+### Two Pointers 
+> 시간복잡도 O(n)
 > 1. 두 배열 합치기
 > 2. 공통 원소 구하기
 > 3. 연속된 자연수의 합
 
 ### Sliding window
+> 시간복잡도 O(n)
 > 1. 최대 매출
-> 
+> 2. 연속부분수열
+
+### HashMap
+> 1. 학급회장 뽑기
+> 2. 아나그램
+> 3. 매출액의 종류(Sliding Window)
+> 4. 모든 아나그램 찾기
+> 5. k번째 큰 수 
 <!-- 
 ### STEP 1
 > * 0번 리팩토링 스프링 컨테이너 없이 DI 구현
