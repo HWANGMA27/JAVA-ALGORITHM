@@ -3,6 +3,7 @@ import Solution.Common;
 import Solution.Hash.*;
 import Solution.SlidingWindow.MaxSalesProfit;
 import Solution.SlidingWindow.Subsequence;
+import Solution.Stack.RemoveCharInsideBracket;
 import Solution.Stack.RightBrackets;
 import Solution.String.*;
 import Solution.TwoPointers.CombineNumbers;
@@ -13,7 +14,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Common solution = new RightBrackets();
+        Common solution = new RemoveCharInsideBracket();
         solution.solution();
         return;
     }
