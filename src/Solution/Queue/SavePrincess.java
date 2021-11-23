@@ -1,4 +1,4 @@
-package Solution.Stack;
+package Solution.Queue;
 
 import Solution.Common;
 
