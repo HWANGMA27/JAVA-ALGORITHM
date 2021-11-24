@@ -1,12 +1,11 @@
 import Solution.Common;
-import Solution.Queue.PuppetDraw;
-import Solution.Stack.DivideByLaser;
-import Solution.Stack.SavePrincess;
+import Solution.Queue.Curriculum;
+import Solution.Queue.SavePrincess;
 
 public class Main {
     public static void main(String[] args) {
         //test
-        Common solution = new SavePrincess();
+        Common solution = new Curriculum();
         solution.solution();
         return;
     }
