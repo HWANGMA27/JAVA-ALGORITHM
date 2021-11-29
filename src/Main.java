@@ -8,7 +8,7 @@ import Solution.Sort.SelectionSort;
 public class Main {
     public static void main(String[] args) {
         //test
-        Common solution = new InsertionSort();
+        Common solution = new Curriculum();
         solution.solution();
         return;
     }

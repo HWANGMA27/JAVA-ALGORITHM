@@ -22,22 +22,20 @@ public class Curriculum implements Common {
         Scanner sc = new Scanner(System.in);
         String[] target = sc.nextLine().split("");
         Queue<String> subject = new LinkedList<>();
-        List<String> targetSbj = Arrays.stream(target).collect(Collectors.toList());
 
         for(String sbj : sc.nextLine().split("")){
             subject.add(sbj);
         }
-        while(!subject.isEmpty()){
-            for(String temp : targetSbj){
-                if(temp.equals(subject.peek())){
-                    targetSbj.remove(temp);
-                }else{
-                    subject.poll();
-                    break;
-                }
-            }
+
+        int pos = 0;
+        while(!subject.isEmpty() && pos < target.length){
+            String sbj = subject.poll();
+            if(sbj.equals(target[pos])){
+                pos++;
+             }
         }
-        if(targetSbj.isEmpty()){
+
+        if(pos == target.length){
             System.out.println("YES");
         }else{
             System.out.println("NO");
