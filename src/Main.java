@@ -1,12 +1,11 @@
+import Solution.Hash.CheckDuplicate;
 import Solution.Common;
-import Solution.Dequeue.LRU;
-import Solution.Queue.EmergencyRoom;
-import Solution.Sort.LRUSelectionSort;
+import Solution.Sort.FindNaughtiness;
 
 public class Main {
     public static void main(String[] args) {
         //test
-        Common solution = new EmergencyRoom();
+        Common solution = new FindNaughtiness();
         solution.solution();
         return;
     }
