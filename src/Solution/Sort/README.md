@@ -13,3 +13,5 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 5. 중복확인
 > 6. 장난꾸러기
 > 7. 좌표정렬(CompareTo)
+> 8. 이분검색
+> 9. 뮤직비디오(결정알고리즘)
