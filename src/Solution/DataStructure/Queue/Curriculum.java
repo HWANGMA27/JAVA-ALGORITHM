@@ -1,9 +1,8 @@
-package Solution.Queue;
+package Solution.DataStructure.Queue;
 
 import Solution.Common;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Curriculum implements Common {
 

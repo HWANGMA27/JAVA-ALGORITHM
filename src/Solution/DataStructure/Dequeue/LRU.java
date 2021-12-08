@@ -1,4 +1,4 @@
-package Solution.Dequeue;
+package Solution.DataStructure.Dequeue;
 
 import Solution.Common;
 

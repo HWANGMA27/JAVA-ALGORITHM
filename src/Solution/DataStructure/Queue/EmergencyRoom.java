@@ -1,4 +1,4 @@
-package Solution.Queue;
+package Solution.DataStructure.Queue;
 
 import Solution.Common;
 

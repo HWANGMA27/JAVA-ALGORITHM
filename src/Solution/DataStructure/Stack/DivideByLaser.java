@@ -1,4 +1,4 @@
-package Solution.Stack;
+package Solution.DataStructure.Stack;
 
 import Solution.Common;
 
