@@ -1,11 +1,10 @@
-import Solution.Hash.CheckDuplicate;
 import Solution.Common;
-import Solution.Sort.*;
+import Solution.Recursive.Basic.FactorialRecursive;
 
 public class Main {
     public static void main(String[] args) {
         //test
-        Common solution = new DecisionAlgorithm2();
+        Common solution = new FactorialRecursive();
         solution.solution();
         return;
     }
