@@ -7,7 +7,6 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 ### Array
 > 1. 큰 수 출력하기
 > 2. 보이는 학생
-> 3. 가위바위보
 > 4. 피보나치 수열
 > 5. 에라토스테네스 체
 > 6. 소수

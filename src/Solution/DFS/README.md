@@ -5,11 +5,9 @@
 
 Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 
-### Stack, Queue(자료구조)
-> 1. 올바른 괄호
-> 2. 괄호문자제거
-> 3. 크레인 인형뽑기(카카오)
-> 4. 쇠막대기
-> 5. 공주구하기
-> 6. 교육과정설계
-> 7. 응급실
+### DFS
+> 1. 이진트리 순회
+> 2. 부분집합 구하기
+
+
+
