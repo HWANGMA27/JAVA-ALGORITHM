@@ -1,6 +1,7 @@
 package Solution.BFS;
 
 import Solution.Common;
+import Solution.Ref.Node;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -14,7 +15,7 @@ public class BinaryTree implements Common {
 
     @Override
     public void solution() {
-        BinaryTree tree = new BinaryTree();
+        ShortestPath tree = new ShortestPath();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
@@ -36,15 +37,5 @@ public class BinaryTree implements Common {
                 if(node.rt != null) queue.offer(node.rt);
             }
         }
-    }
-}
-
-class Node{
-    int data;
-    Node lt, rt;
-
-    public Node(int var){
-        data = var;
-        lt = rt = null;
     }
 }

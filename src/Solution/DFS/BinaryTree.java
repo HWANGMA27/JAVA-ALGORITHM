@@ -1,6 +1,7 @@
 package Solution.DFS;
 
 import Solution.Common;
+import Solution.Ref.Node;
 
 public class BinaryTree implements Common {
     /**
@@ -50,15 +51,5 @@ public class BinaryTree implements Common {
             DFS3(root.rt);
             System.out.print(root.data + " ");
         }
-    }
-}
-
-class Node{
-    int data;
-    Node lt, rt;
-
-    public Node(int var){
-        data = var;
-        lt = rt = null;
     }
 }
