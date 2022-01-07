@@ -29,23 +29,26 @@ public class Q3_findCalf implements Common {
     public int BFS(int start, int calf){
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(start);
-        boolean found = false;
         int level = 0;
         while(!queue.isEmpty()){
             int length = queue.size();
             for(int i=0; i< length; i++){
                 int x = queue.poll();
                 if(x == calf) return level;
-                for (int j = 0; j < move.length; j++) {
-                    int nextX = x + move[j];
-                    if(nextX >= 1 && nextX <= 100000 && check[nextX] == 0){
-                        check[nextX] = 1;
-                        queue.offer(nextX);
-                    }
-                }
+                nextPossiblePath(queue, x);
             }
             level++;
         }
         return level;
+    }
+
+    private void nextPossiblePath(Queue<Integer> queue, int x) {
+        for (int j = 0; j < move.length; j++) {
+            int nextX = x + move[j];
+            if(nextX >= 1 && nextX <= 100000 && check[nextX] == 0){
+                check[nextX] = 1;
+                queue.offer(nextX);
+            }
+        }
     }
 }

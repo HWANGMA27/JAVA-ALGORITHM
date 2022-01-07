@@ -15,7 +15,7 @@ public class Q1_BinaryTree implements Common {
 
     @Override
     public void solution() {
-        Q2_ShortestPath tree = new Q2_ShortestPath();
+        Q1_BinaryTree tree = new Q1_BinaryTree();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
@@ -23,19 +23,28 @@ public class Q1_BinaryTree implements Common {
         tree.root.lt.rt = new Node(5);
         tree.root.rt.lt = new Node(6);
         tree.root.rt.rt = new Node(7);
+        tree.root.rt.rt.lt = new Node(8);
         BFS(tree.root);
     }
     void BFS(Node root){
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
+        int level = 0;
+
         while(!queue.isEmpty()){
-            int len = queue.size();
-            for (int i = 0; i < len ; i++) {
-                Node node = queue.poll();
-                System.out.println(node.data);
-                if(node.lt != null) queue.offer(node.lt);
-                if(node.rt != null) queue.offer(node.rt);
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                Node temp = queue.poll();
+                if(temp.lt == null && temp.rt == null){
+                    System.out.println("Length : " + (level));
+                    return;
+                }else {
+                    if(temp.lt != null) queue.offer(temp.lt);
+                    if(temp.rt != null) queue.offer(temp.rt);
+                }
             }
+            level++;
         }
     }
 }
+

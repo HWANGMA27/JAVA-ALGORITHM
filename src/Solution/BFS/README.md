@@ -7,7 +7,7 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 
 ### BFS
 > 1. 이진트리
-> 2. 가장 짧은 경로 출력
+> 2. 말단 노드까지의 가장 짧은 경로(BFS)
 > 3. 송아지 찾기
 
 
