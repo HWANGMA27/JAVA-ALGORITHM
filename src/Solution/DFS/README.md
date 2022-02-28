@@ -15,4 +15,5 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
      1에서 n까지 갈 수 있는 경로의 수를 출력하라(ArrayList)
 > 6. 합이 같은 부분집합
 > 7. 바둑이 승차
+> 8. 최대점수 구하기
 
