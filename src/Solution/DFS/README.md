@@ -14,4 +14,5 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 5. n개의 정점과 그 정점을 연결하는 간선의 데이터가 주어질 때  
      1에서 n까지 갈 수 있는 경로의 수를 출력하라(ArrayList)
 > 6. 합이 같은 부분집합
+> 7. 바둑이 승차
 
