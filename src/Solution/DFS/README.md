@@ -17,4 +17,5 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 7. 바둑이 승차
 > 8. 최대점수 구하기
 > 9. 동전교환
+> 10. 순열구하기
 
