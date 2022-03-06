@@ -18,5 +18,5 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 8. 최대점수 구하기
 > 9. 동전교환
 > 10. 순열구하기
-> 11. 미로탙색
+> 11. 미로탐색
 

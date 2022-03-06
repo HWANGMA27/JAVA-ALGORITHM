@@ -78,6 +78,12 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
      1에서 n까지 갈 수 있는 경로의 수를 출력하라(Array)
 > 5. n개의 정점과 그 정점을 연결하는 간선의 데이터가 주어질 때  
      1에서 n까지 갈 수 있는 경로의 수를 출력하라(ArrayList)
+> 6. 합이 같은 부분집합
+> 7. 바둑이 승차
+> 8. 최대점수 구하기
+> 9. 동전교환
+> 10. 순열구하기
+> 11. 미로탐색
 
 > ### BFS
 > 1. 이진트리
@@ -85,3 +91,4 @@ Trello : https://trello.com/b/ldNEfeTI/daily-tasks-planner
 > 3. 송아지 찾기
 > 4. 정점 N개와 간선 M이 주어질 때
      1번 정점에서 각 정점으로 가는 최소 이동 간선 수 출력
+> 5. 미로의 최단거리 통로
